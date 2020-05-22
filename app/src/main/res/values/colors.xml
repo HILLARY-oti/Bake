@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#a678</color>
+    <color name="colorPrimaryDark">#a678</color>
+    <color name="colorAccent">#a678</color>
+    <color name="colorClicked">#ddd</color>
+    <color name="colorSelected">#ccc</color>
+</resources>

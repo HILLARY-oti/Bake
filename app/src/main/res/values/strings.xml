@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Baking</string>
+    <string name="step">Step</string>
+    <string name="recipe_introduction">Step</string>
+    <string name="title_activity_main">Bake</string>
+    <string name="title_steps">Steps</string>
+    <string name="title_ingredients">Title</string>
+    <string name="network">No network</string>
+    <string name="no_network_try_again">No Network try again</string>
+    <string name="no_network_close">No  network close</string>
+    <string name="widget_recipe_added">Recipe added</string>
+    <string name="widget_recipe_removed">Recipe removed</string>
+    <string name="appwidget_text">EXAMPLE</string>
+    <string name="add_widget">Add widget</string>
+</resources>
