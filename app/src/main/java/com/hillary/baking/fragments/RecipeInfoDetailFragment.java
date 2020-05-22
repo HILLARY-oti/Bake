@@ -13,6 +13,7 @@ import androidx.annotation.Nullable;
 import androidx.databinding.DataBindingUtil;
 import androidx.fragment.app.Fragment;
 
+
 import com.google.android.exoplayer2.C;
 import com.google.android.exoplayer2.DefaultLoadControl;
 import com.google.android.exoplayer2.ExoPlayerFactory;
@@ -96,7 +97,6 @@ public class RecipeInfoDetailFragment extends Fragment {
             binding.playerView.setPlayer(mExoPlayer);
 
             binding.playerView.setResizeMode(AspectRatioFrameLayout.RESIZE_MODE_FIXED_WIDTH);
-
             String userAgent = Util.getUserAgent(getContext(), "BakingApp");
             MediaSource mediaSource = new ExtractorMediaSource(mediaUri, new DefaultDataSourceFactory(
                     getContext(), userAgent), new DefaultExtractorsFactory(), null, null);
